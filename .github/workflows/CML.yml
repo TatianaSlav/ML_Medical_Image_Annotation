@@ -1,0 +1,14 @@
+# This is CML for Medical Image Annotation 
+
+<div class="row-fluid">
+  <div class="span6">
+    <img src="{{hosted_image}}"/>
+  </div>
+  <div class="span6">
+    <cml:radios name="Diagnosis" label="What is your assessment of the image?" validates="required">
+      <cml:radio value="Healthy" label="Healthy"/>
+      <cml:radio value=" Pneumonia" label=" Pneumonia"/>
+      <cml:radio value="unknown" label="Unknown"/>
+    </cml:radios>
+  </div>
+</div>
